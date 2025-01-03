@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+      body {
+        position: fixed;
+      }
+      .box {
+        border: 2px solid brown;
+      }
+      .boy {
+        height: 200px;
+        position: absolute;
+        right: 130px;
+        z-index: 10;
+        top: 30px;
+      }
+      .ring {
+        width: 250px;
+        position: absolute;
+        top: 120px;
+        right: 60px;
+      }
+      .water {
+        width: 400px;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="box boy" src="/assets/boy.jpg" alt="" />
+    <img class="box ring" src="/assets/ring.jpg" alt="" />
+    <img class="box water" src="/assets/water.jpg" alt="" />
+  </body>
+</html>
